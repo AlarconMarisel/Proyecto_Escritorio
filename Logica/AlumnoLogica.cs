@@ -22,7 +22,7 @@ namespace Logica
         public AlumnoLogica()
         {
             comando = new SqlCommand();
-            conexion = new SqlConnection("server=DESKTOP-J6SUQQ6\\SQLEXPRESS;database=ALUMNO_DB;integrated security=true");                        
+            conexion = new SqlConnection("server=DESKTOP-RNODH0P\\SQLEXPRESS;database=ALUMNO_DB;integrated security=true");                        
         }
         public void iniciarConsulta(string consulta)
         {
