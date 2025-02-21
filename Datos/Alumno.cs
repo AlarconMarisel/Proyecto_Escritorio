@@ -8,6 +8,7 @@ namespace Datos
 {
     public class Alumno
     {
+      //cambios
         public int Id { get; set; }
         public string Nombre { get; set; }
         public int Dni { get; set; }
